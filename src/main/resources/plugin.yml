@@ -1,0 +1,15 @@
+name: Clans
+version: '${project.version}'
+main: de.clans.ClansPlugin
+api-version: '1.21'
+description: Clan-System mit Custom GUI
+softdepend: [PlaceholderAPI]
+commands:
+  clan:
+    description: Clan-System
+    usage: /clan help
+    aliases: [clans]
+permissions:
+  clans.admin:
+    description: Erlaubt /clan reload
+    default: op

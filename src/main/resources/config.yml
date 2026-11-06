@@ -1,0 +1,24 @@
+# Alle Texte nutzen MiniMessage (https://docs.advntr.dev/minimessage/format.html)
+
+prefix: "<dark_gray>[<gold>Clan<dark_gray>]<gray> "
+no-clan-name: "kein Clan"
+no-clan-tab: "<dark_gray>[<gray>kein Clan<dark_gray>]"
+
+# Clan-Tag in der Tabliste anzeigen
+tab-list-name: true
+# Basis des Tab-Namens, <player> = Spielername
+tab-base: "<white><player>"
+
+min-length: 3
+max-length: 10
+
+# Farbe ändern darf nur der Leiter
+color-needs-leader: true
+# Permission für Clan-Farben
+vip-permission: "vip.booster"
+
+gui:
+  animation: true
+  # Ticks zwischen zwei Animations-Frames (2 = flüssig, 4 = sparsamer)
+  animation-speed: 2
+  sounds: true
